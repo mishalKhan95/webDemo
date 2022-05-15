@@ -11,7 +11,7 @@ body {
 .banner {
   height: 500px;
   background-color: aqua;
-  background: url('https://global.nielsen.com/wp-content/uploads/sites/2/2021/10/1440_and_above_home_page_hero_template-hires-min.png');
+  background: url("https://global.nielsen.com/wp-content/uploads/sites/2/2021/10/1440_and_above_home_page_hero_template-hires-min.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -34,4 +34,7 @@ body {
   opacity: 0.8;
   position: fixed;
   display: flex;
+}
+.testClass {
+  margin: 10px;
 }
