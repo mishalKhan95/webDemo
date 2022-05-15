@@ -1,0 +1,37 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  height: 100px;
+  background-color: white;
+}
+
+.banner {
+  height: 500px;
+  background-color: aqua;
+  background: url('https://global.nielsen.com/wp-content/uploads/sites/2/2021/10/1440_and_above_home_page_hero_template-hires-min.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentSection {
+  height: 800px;
+  /* background-color: burlywood; */
+  display: flex;
+  flex-direction: column;
+}
+
+.fixedHeader {
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.8;
+  position: fixed;
+  display: flex;
+}
