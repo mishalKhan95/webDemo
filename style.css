@@ -35,6 +35,17 @@ body {
   position: fixed;
   display: flex;
 }
-.testClass {
-  margin: 10px;
+.solCards {
+  width: 300px;
+  height: 400px;
+  border-radius: 5px;
+  background: #eee;
+  padding: 24px;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.solCards p {
+  margin: 0px;
 }
